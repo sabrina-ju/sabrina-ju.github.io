@@ -1,10 +1,15 @@
+*{
+	margin: 0;
+	padding: 0;
+}
 html,body {
 			  height: 100%;
+
 			}
 
 .header-top{
 	height: 300px;
-background:url(../image/bg2.jpg)  center;
+	background:url(../image/bg2.jpg)  center;
 
 
 }
@@ -13,7 +18,7 @@ background:url(../image/bg2.jpg)  center;
 			  position: absolute;
 			  width: 100%;
 			  text-align: center;
-			  top:215px;
+			  top:225px;
 }
 .bar li{
 			  display: inline-block;
@@ -82,7 +87,7 @@ background:url(../image/bg2.jpg)  center;
 			.bar li:nth-of-type(4) a::after {
 			  background: url(../image/mail64.png) no-repeat center;
 			}
-					.bar a::before {
+			.bar a::before {
 			  content:"";
 			  display: block;
 			  height: 64px;
@@ -99,3 +104,75 @@ background:url(../image/bg2.jpg)  center;
 			.bar a:hover::before {
 			  opacity:0;
 			}
+/* Resume 部分*/
+.resume{
+	background: #FFDCF3;
+	height: 500px;
+	padding-top: 2.5%;
+	padding-bottom: 5%;
+}
+.infor-left{
+	float: left;
+	width: 30%;
+	margin-left: 10%;
+	height: 45%;
+	background: url("../image/resume.jpeg") center no-repeat;
+	background-size: 100% 100%;
+}
+.infor-right{
+	float: right;
+	width: 30%;
+	height: 45%;
+	margin-right: 10%;
+	background: url("../image/resume.jpeg") center no-repeat;
+	background-size: 100% 100%;
+}
+#photo{
+	width: 20%;
+	clear: both;
+	border: #FF9A77 solid 3px;
+	height: 35%;
+	background: url("../image/myphoto.jpg") center no-repeat;
+	background-size: 100% 100%;
+	border-radius: 50%;
+	position: absolute;
+	margin: 80px 39.8%;
+	z-index: 2;
+}
+.resume-title{
+	text-align: center;
+	margin-top: 20px;
+}
+.resume-list{
+	list-style-type: none;
+	padding-left: 20px;
+	line-height: 35px;
+}
+/*Blog 部分*/
+.subtitle{
+	text-align: center;
+	font-size: 30px;
+	padding:40px;
+}
+.blog-preview{
+	height: 500px;
+	background-color: rgba(241,190,250,0.55);
+
+}
+.blog{
+	float: left;
+	height: 350px;
+	width: 20%;
+    color: darkviolet;
+
+}
+#blog1{
+	margin-left: 10%;
+	background-color:rgba(241,190,250,1);// }
+	#blog2{
+	background-color:rgba(241,190,250,0.8); }
+	#blog3{
+	background-color:rgba(241,190,250,0.6); }
+	#blog4{
+	background-color:rgba(241,190,250,0.5); }
+
